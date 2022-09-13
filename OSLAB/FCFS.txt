@@ -1,0 +1,85 @@
+//output 1
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-enhmc1qw.mru' '--stdout=Microsoft-MIEngine-Out-wcia4icc.tqv' '--stderr=Microsoft-MIEngine-Error-cecxcorz.afu' '--pid=Microsoft-MIEngine-Pid-xmyv4jyw.p1z' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi'
+
+Enter the number of processes: 3
+
+Enter Burst Time for Process 0: 2
+
+Enter Burst Time for Process 1: 1
+
+Enter Burst Time for Process 2: 2
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              2               0               2
+Average Waiting Time -- 1.666667
+Average Turnaround Time -- 3.3333
+
+//output 2
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-maakbuxv.jjf' '--stdout=Microsoft-MIEngine-Out-tcdwot1v.uay' '--stderr=Microsoft-MIEngine-Error-fkastdku.2ma' '--pid=Microsoft-MIEngine-Pid-0mqtrqdw.zbw' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi'
+
+Enter the number of processes: 4
+
+Enter Burst Time for Process 0: 2
+
+Enter Burst Time for Process 1: 5
+
+Enter Burst Time for Process 2: 3
+
+Enter Burst Time for Process 3: 5
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              2               0               2
+Average Waiting Time -- 4.750000
+Average Turnaround Time -- 8.500000
+
+//output 3
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-ctee2wm0.rxu' '--stdout=Microsoft-MIEngine-Out-cxqdbxxb.gmq' '--stderr=Microsoft-MIEngine-Error-ygnqhcba.hlf' '--pid=Microsoft-MIEngine-Pid-czqtaaxt.1x4' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi' 
+
+Enter the number of processes: 2
+
+Enter Burst Time for Process 0: 4
+
+Enter Burst Time for Process 1: 3
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              4               0               4
+Average Waiting Time -- 2.000000
+Average Turnaround Time -- 5.500000
+//output 4
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-r4waibzv.bqp' '--stdout=Microsoft-MIEngine-Out-uic33e41.bdn' '--stderr=Microsoft-MIEngine-Error-fdtopgsx.e3i' '--pid=Microsoft-MIEngine-Pid-i2ufrnlv.wjk' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi'
+
+Enter the number of processes: 5
+
+Enter Burst Time for Process 0: 3
+
+Enter Burst Time for Process 1: 2
+
+Enter Burst Time for Process 2: 5
+
+Enter Burst Time for Process 3: 3
+
+Enter Burst Time for Process 4: 3
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              3               0               3
+Average Waiting Time -- 6.200000
+Average Turnaround Time -- 9.400000
+
+//output 5
+
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-vpqrve4c.sl3' '--stdout=Microsoft-MIEngine-Out-anv2pjk3.5be' '--stderr=Microsoft-MIEngine-Error-hvblpnbh.vbj' '--pid=Microsoft-MIEngine-Pid-de3rwp24.tv3' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi'
+
+Enter the number of processes: 4
+
+Enter Burst Time for Process 0: 3
+
+Enter Burst Time for Process 1: 6
+
+Enter Burst Time for Process 2: 7
+
+Enter Burst Time for Process 3: 8
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              3               0               3
+Average Waiting Time -- 7.000000
+Average Turnaround Time -- 13.000000
