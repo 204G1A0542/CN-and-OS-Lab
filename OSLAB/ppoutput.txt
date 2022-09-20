@@ -1,0 +1,79 @@
+//output 1
+
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-vhrux3x3.gt1' '--stdout=Microsoft-MIEngine-Out-xedwej1a.gk4' '--stderr=Microsoft-MIEngine-Error-hecjtps0.0cq' '--pid=Microsoft-MIEngine-Pid-mqqsh3yh.bh3' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi'
+Enter the number of processes --- 3
+Enter the Burst Time & Priority of Process 0 --- 2
+4
+Enter the Burst Time & Priority of Process 1 --- 4
+6
+Enter the Burst Time & Priority of Process 2 --- 2
+1
+
+PROCESS         PRIORITY        BURST TIME      WAITING TIME    TURNAROUNDTIME
+2                1               2               0               2
+0                4               2               2               4 
+1                6               4               4               8
+Average Waiting Time is --- 2.000000
+AverageTurnaround Time is --- 4.666667
+
+//output 2
+
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-f1ic4zhg.35x' '--stdout=Microsoft-MIEngine-Out-jbdiwkw0.h34' '--stderr=Microsoft-MIEngine-Error-lfg4djj2.gbh' '--pid=Microsoft-MIEngine-Pid-ue1undqc.y15' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi' 
+Enter the number of processes --- 2
+Enter the Burst Time & Priority of Process 0 --- 4 5 
+Enter the Burst Time & Priority of Process 1 --- 5 3
+
+PROCESS         PRIORITY        BURST TIME      WAITING TIME    TURNAROUNDTIME
+1                3               5               0               5 
+0                5               4               5               9
+Average Waiting Time is --- 2.500000
+AverageTurnaround Time is --- 7.000000
+
+//output 3
+
+PS C:\Users\Jasmin\CN-and-OS-Lab>  & 'c:\Users\Jasmin\.vscode\extensions\ms-vscode.cpptools-1.12.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-sose0uvl.253' '--stdout=Microsoft-MIEngine-Out-l5trsuih.bcm' '--stderr=Microsoft-MIEngine-Error-w15ype3q.v4f' '--pid=Microsoft-MIEngine-Pid-xury1vdp.e4u' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi'
+Enter the number of processes --- 4
+Enter the Burst Time & Priority of Process 0 --- 6
+4
+Enter the Burst Time & Priority of Process 1 --- 3
+7
+Enter the Burst Time & Priority of Process 2 --- 2
+1
+Enter the Burst Time & Priority of Process 3 --- 8
+3
+
+PROCESS         PRIORITY        BURST TIME      WAITING TIME    TURNAROUNDTIME
+2                1               2               0               2 
+3                3               8               2               10
+0                4               6               10              16
+1                7               3               16              19
+Average Waiting Time is --- 7.000000
+AverageTurnaround Time is --- 11.750000
+
+//output 4
+
+Enter the number of processes --- 3
+Enter the Burst Time & Priority of Process 0 --- 6 5 
+Enter the Burst Time & Priority of Process 1 --- 4 3
+Enter the Burst Time & Priority of Process 2 --- 7 2
+
+PROCESS         PRIORITY        BURST TIME      WAITING TIME    TURNAROUNDTIME
+2                2               7               0               7
+1                3               4               7               11 
+0                5               6               11              17
+Average Waiting Time is --- 6.000000
+AverageTurnaround Time is --- 11.666667
+
+//output 5
+
+Enter the number of processes --- 2
+Enter the Burst Time & Priority of Process 0 --- 6
+4
+Enter the Burst Time & Priority of Process 1 --- 2
+9
+
+PROCESS         PRIORITY        BURST TIME      WAITING TIME    TURNAROUNDTIME
+0                4               6               0               6 
+1                9               2               6               8
+Average Waiting Time is --- 3.000000
+AverageTurnaround Time is --- 7.000000
