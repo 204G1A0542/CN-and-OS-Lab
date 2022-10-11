@@ -1,0 +1,70 @@
+Output for SJF.c:
+------------------
+
+output-1:
+---------
+
+Enter the number of processes -- 2
+Enter Burst Time for Process 0 -- 10
+Enter Burst Time for Process 1 -- 20
+
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              10              0               10
+         P1              20              10              30
+Average Waiting Time -- 5.000000
+Average Turnaround Time -- 20.000000
+
+output-2:
+---------
+
+Enter the number of processes -- 3
+Enter Burst Time for Process 0 -- 4
+Enter Burst Time for Process 1 -- 8
+Enter Burst Time for Process 2 -- 12
+
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              4               0               4
+         P1              8               4               12
+         P2              12              12              24
+Average Waiting Time -- 5.333333
+Average Turnaround Time -- 13.333333
+
+output-3:
+-------- 
+
+Enter the number of processes -- 4
+Enter Burst Time for Process 0 -- 15
+Enter Burst Time for Process 1 -- 30
+Enter Burst Time for Process 2 -- 45
+Enter Burst Time for Process 3 -- 60
+
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              15              0               15
+         P1              30              15              45
+         P2              45              45              90
+         P3              60              90              150
+Average Waiting Time -- 37.500000
+Average Turnaround Time -- 75.000000
+
+output-4:
+----------
+
+Enter the number of processes -- 5
+Enter Burst Time for Process 0 -- 6
+Enter Burst Time for Process 1 -- 12
+Enter Burst Time for Process 2 -- 18
+Enter Burst Time for Process 3 -- 24
+Enter Burst Time for Process 4 -- 30
+
+         PROCESS        BURST TIME       WAITING TIME    TURNAROUND TIME
+
+         P0              6               0               6
+         P1              12              6               18
+         P2              18              18              36
+         P3              24              36              60
+         P4              30              60              90
+Average Waiting Time -- 24.000000
+Average Turnaround Time -- 42.000000
